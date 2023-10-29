@@ -1,95 +1,100 @@
-[18:50:25] [ServerMain/WARN]: [oshi.software.os.linux.LinuxOperatingSystem] Did not find udev library in operating system. Some features may not work.
-[18:50:29] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:50:31] [ServerMain/INFO]: Loaded 7 recipes
-[18:50:31] [Server thread/INFO]: Starting minecraft server version 1.20.2
-[18:50:31] [Server thread/INFO]: Loading properties
-[18:50:31] [Server thread/INFO]: This server is running Paper version git-Paper-260 (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT) (Git: 1865625)
-[18:50:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:50:32] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:50:32] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[19:09:28] [ServerMain/WARN]: [oshi.software.os.linux.LinuxOperatingSystem] Did not find udev library in operating system. Some features may not work.
+[19:09:33] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:09:34] [ServerMain/INFO]: Loaded 7 recipes
+[19:09:35] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[19:09:35] [Server thread/INFO]: Loading properties
+[19:09:35] [Server thread/INFO]: This server is running Paper version git-Paper-260 (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT) (Git: 1865625)
+[19:09:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:09:35] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:09:35] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[18:50:32] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[18:50:32] [Server thread/INFO]: Default game type: SURVIVAL
-[18:50:32] [Server thread/INFO]: Generating keypair
-[18:50:33] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:50:33] [Server thread/INFO]: Using epoll channel type
-[18:50:33] [Server thread/INFO]: Paper: Using libdeflate (Linux aarch64) compression from Velocity.
-[18:50:33] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[18:50:33] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.8.2-SNAPSHOT-596;b8434f8
-[18:50:34] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@340d0335]
-[18:50:34] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.2.0-SNAPSHOT
-[18:50:34] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[18:50:34] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[18:50:34] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v22.2
-[18:50:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:50:34] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.8.2-SNAPSHOT-596;b8434f8
-[18:50:34] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[18:50:34] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[18:50:34] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[18:50:34] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[18:50:35] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R2.PaperweightFaweAdapter as the Bukkit adapter
-[18:50:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:50:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:50:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:50:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:50:35] [Server thread/INFO]: Preparing level "world"
-[18:50:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:50:36] [Server thread/INFO]: Time elapsed: 153 ms
-[18:50:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[18:50:36] [Server thread/INFO]: Time elapsed: 85 ms
-[18:50:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:50:36] [Server thread/INFO]: Time elapsed: 40 ms
-[18:50:36] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.2.0-SNAPSHOT
-[18:50:36] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v22.2
-[18:50:37] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
-[18:50:37] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-[18:50:37] [Server thread/INFO]: --------------------
-[18:50:37] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[18:50:37] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[18:50:37] [Server thread/INFO]: --------------------
-[18:50:37] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[18:50:37] [Server thread/INFO]: [Geyser-Spigot] 
-[18:50:37] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.2.0-SNAPSHOT (git-master-8d2ebcf)
-[18:50:37] [Server thread/INFO]: [Geyser-Spigot] 
-[18:50:37] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[18:50:43] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[18:50:43] [Server thread/INFO]: [Geyser-Spigot] Done (6.195s)! Run /geyser help for help!
-[18:50:43] [Server thread/INFO]: Running delayed init tasks
-[18:50:43] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
-[18:50:43] [Server thread/INFO]: Done (11.760s)! For help, type "help"
-[18:50:43] [Server thread/INFO]: Timings Reset
-[18:51:20] [Server thread/INFO]: Stopping the server
-[18:51:20] [Server thread/INFO]: Stopping server
-[18:51:20] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v22.2
-[18:51:20] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
-[18:51:20] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v22.2
-[18:51:20] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.2.0-SNAPSHOT
-[18:51:20] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[18:51:20] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[18:51:20] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.8.2-SNAPSHOT-596;b8434f8
-[18:51:20] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[18:51:20] [Server thread/INFO]: Saving players
-[18:51:21] [Server thread/INFO]: Saving worlds
-[18:51:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:51:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[18:51:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[18:51:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[18:51:22] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 1.07s
-[18:51:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:51:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:51:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[18:51:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[18:51:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[18:51:22] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.62s
-[18:51:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:51:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:51:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[18:51:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[18:51:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[18:51:23] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.22s
-[18:51:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:51:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18:51:23] [Server thread/INFO]: Flushing Chunk IO
-[18:51:23] [Server thread/INFO]: Closing Thread Pool
-[18:51:23] [Server thread/INFO]: Closing Server
+[19:09:35] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[19:09:36] [Server thread/INFO]: Default game type: SURVIVAL
+[19:09:36] [Server thread/INFO]: Generating keypair
+[19:09:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:09:36] [Server thread/INFO]: Using epoll channel type
+[19:09:36] [Server thread/INFO]: Paper: Using libdeflate (Linux aarch64) compression from Velocity.
+[19:09:36] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:09:36] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.8.2-SNAPSHOT-596;b8434f8
+[19:09:37] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@ef8c613]
+[19:09:37] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.2.0-SNAPSHOT
+[19:09:37] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[19:09:37] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[19:09:37] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v22.2
+[19:09:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:09:37] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.8.2-SNAPSHOT-596;b8434f8
+[19:09:37] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[19:09:38] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[19:09:38] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:09:38] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:09:38] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R2.PaperweightFaweAdapter as the Bukkit adapter
+[19:09:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:09:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:09:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:09:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:09:39] [Server thread/INFO]: Preparing level "world"
+[19:09:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:09:39] [Server thread/INFO]: Time elapsed: 187 ms
+[19:09:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:09:39] [Server thread/INFO]: Time elapsed: 77 ms
+[19:09:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:09:39] [Server thread/INFO]: Time elapsed: 37 ms
+[19:09:39] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.2.0-SNAPSHOT
+[19:09:39] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v22.2
+[19:09:40] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[19:09:40] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[19:09:40] [Server thread/INFO]: --------------------
+[19:09:40] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[19:09:40] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[19:09:40] [Server thread/INFO]: --------------------
+[19:09:40] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:09:40] [Server thread/INFO]: [Geyser-Spigot] 
+[19:09:40] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.2.0-SNAPSHOT (git-master-8d2ebcf)
+[19:09:40] [Server thread/INFO]: [Geyser-Spigot] 
+[19:09:40] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:09:46] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[19:09:46] [Server thread/INFO]: [Geyser-Spigot] Done (6.3s)! Run /geyser help for help!
+[19:09:47] [Server thread/INFO]: Running delayed init tasks
+[19:09:47] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[19:09:47] [Server thread/INFO]: Done (12.083s)! For help, type "help"
+[19:09:47] [Server thread/INFO]: Timings Reset
+[19:12:42] [User Authenticator #0/INFO]: UUID of player DR0N9K is 75e389d3-5b15-32f3-b4df-3fe062edc842
+[19:12:42] [Server thread/INFO]: DR0N9K joined the game
+[19:12:42] [Server thread/INFO]: DR0N9K[/193.32.127.222:45522] logged in with entity id 185 at ([world]991.3784991487603, 89.24996910958913, -3592.836389553103)
+[19:12:55] [Server thread/INFO]: DR0N9K lost connection: Disconnected
+[19:12:55] [Server thread/INFO]: DR0N9K left the game
+[19:13:02] [Server thread/INFO]: Stopping the server
+[19:13:02] [Server thread/INFO]: Stopping server
+[19:13:02] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v22.2
+[19:13:02] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[19:13:03] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v22.2
+[19:13:03] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.2.0-SNAPSHOT
+[19:13:03] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[19:13:03] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[19:13:03] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.8.2-SNAPSHOT-596;b8434f8
+[19:13:03] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:13:03] [Server thread/INFO]: Saving players
+[19:13:03] [Server thread/INFO]: Saving worlds
+[19:13:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:13:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[19:13:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[19:13:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[19:13:04] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 0.87s
+[19:13:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:13:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:13:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[19:13:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[19:13:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[19:13:04] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.64s
+[19:13:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:13:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:13:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[19:13:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[19:13:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[19:13:05] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.10s
+[19:13:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:13:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:13:05] [Server thread/INFO]: Flushing Chunk IO
+[19:13:05] [Server thread/INFO]: Closing Thread Pool
+[19:13:05] [Server thread/INFO]: Closing Server
